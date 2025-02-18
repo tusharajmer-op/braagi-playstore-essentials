@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Braagi - Get support for your English learning journey with our AI-powered app">
+    <meta name="keywords" content="contact Braagi, English learning support, help desk">
+    <title>Contact Us - Braagi</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <nav>
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <a href="index.html">
+                <img src="/images/logo-1-white.png" alt="Braagi" class="h-28">
+            </a>
+            <ul class="flex space-x-4">
+                <li><a href="/terms-and-conditions.html" class="hover:underline">Terms</a></li>
+                <li><a href="/privacy-policy.html" class="hover:underline">Privacy</a></li>
+                <li><a href="/contact.html" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 space-y-16">
+        <section class="text-center space-y-6">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+                Get in Touch
+            </h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                Have questions about Braagi? We're here to help. Send us a message and we'll get back to you as soon as possible.
+            </p>
+        </section>
+
+        <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            <!-- Contact Form -->
+            <section class="space-y-8">
+                <h2 class="text-2xl font-bold">Send Us a Message</h2>
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-gray-300">Subject</label>
+                        <select id="subject" name="subject" class="mt-1 w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option>Handwriting Analysis Support</option>
+                            <option>Image Upload Issues</option>
+                            <option>Analysis Results Feedback</option>
+                            <option>Business Inquiry</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg">
+                        Send Message
+                    </button>
+                </form>
+            </section>
+
+            <!-- Contact Information -->
+            <section class="space-y-8">
+                <h2 class="text-2xl font-bold">Other Ways to Reach Us</h2>
+                <div class="space-y-6">
+                    <div class="p-6 bg-gray-800 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3">Email Support</h3>
+                        <p class="text-gray-300">support@braagi.com</p>
+                    </div>
+                    <div class="p-6 bg-gray-800 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3">Business Hours</h3>
+                        <p class="text-gray-300">Monday - Friday<br>9:00 AM - 6:00 PM (EST)</p>
+                    </div>
+                    <div class="p-6 bg-gray-800 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-3">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-300 hover:text-white">Twitter</a>
+                            <a href="#" class="text-gray-300 hover:text-white">LinkedIn</a>
+                            <a href="#" class="text-gray-300 hover:text-white">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 mt-16 py-8">
+        <div class="container mx-auto px-4 text-center text-gray-300">
+            <p>&copy; 2024 Braagi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
